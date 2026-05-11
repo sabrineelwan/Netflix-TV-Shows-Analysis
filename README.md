@@ -113,28 +113,8 @@ PostgreSQL
       python analysis.py
    
 4. Open PostgreSQL and run the SQL queries from /sql/queries.sql
+5.  Open Power BI and connect to your PostgreSQL database to load the dashboard
 
-5. Open Power BI and connect to your PostgreSQL database to load the dashboard
+6. Open Power BI and connect to your PostgreSQL database to load the dashboard
 
-    ## 📁 Project Structure
-   netflix-tv-analysis/
-│
-├── data/
-│   └── netflix_tv_shows.csv
-│
-├── python/
-│   └── analysis.py
-│
-├── sql/
-│   └── queries.sql
-│
-├── dashboard/
-│   └── netflix_dashboard.pbix
-│
-├── report/
-│   └── Netflix_TV_Shows_Analysis_Report.docx
-│
-└── README.md
-
-
-## 📁 Project Structure
+   
