@@ -87,19 +87,6 @@ Key visuals:
 
 ---
 
-## 💡 Results & Recommendations
-
-| # | Recommendation | Insight |
-|---|---------------|---------|
-| 1 | License high-rated shows | IMDb 8.5+ titles not on Netflix are acquisition opportunities |
-| 2 | Focus on modern-era content | Modern shows consistently score highest in ratings |
-| 3 | Expand family content | Strong ratings + drives household subscriptions |
-| 4 | Fill content gaps | High-demand age/era combos are underrepresented |
-| 5 | Personalize marketing | Different age tiers respond to different content |
-| 6 | Improve recommendations | A composite IMDb + era + tier score predicts viewer preferences |
-
----
-
 ## ▶️ How to Run
 
 ### Requirements
@@ -118,11 +105,12 @@ PostgreSQL
    
 2. Install dependencies
   
-   pip install pandas sqlalchemy psycopg2
+     pip install pandas sqlalchemy psycopg2
+   
    
 3. Run the Python script
   
-   python analysis.py
+      python analysis.py
    
 4. Open PostgreSQL and run the SQL queries from /sql/queries.sql
 
@@ -148,8 +136,5 @@ PostgreSQL
 │
 └── README.md
 
-   
-
----
 
 ## 📁 Project Structure
